@@ -147,15 +147,12 @@ export default function Home() {
               </Section>
 
               <Section id="contact" title="contact">
-                <p style={{ color: "var(--muted2)" }}>{contact.note}</p>
                 <p style={{ color: "var(--text)" }}>
                   <a className="underline" href={`mailto:${contact.email}`}>
                     {contact.email}
                   </a>
                 </p>
-                <p className="text-sm" style={{ color: "var(--muted2)" }}>
-                  {contact.location}
-                </p>
+                <p style={{ color: "var(--muted2)" }}>{contact.note}</p>
               </Section>
 
               <footer

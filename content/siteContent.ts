@@ -70,5 +70,5 @@ export const skills = {
 
 export const contact = {
   email: "andrewpularickal@gmail.com",
-  note: "open to 2026 software engineering roles and collaborations.",
+  note: "open to entry-level 2026 software engineering roles.",
 };
