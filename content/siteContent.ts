@@ -70,6 +70,5 @@ export const skills = {
 
 export const contact = {
   email: "andrewpularickal@gmail.com",
-  location: "saddle brook, nj",
   note: "open to 2026 software engineering roles and collaborations.",
 };
