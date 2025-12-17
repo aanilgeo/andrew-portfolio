@@ -110,7 +110,7 @@ export default function MobileNav() {
               <a
                 className="flex-1 rounded-xl px-4 py-3 text-center text-sm transition-colors"
                 style={{ background: "var(--bg)", color: "var(--text)" }}
-                href="/Andrew_Anil George_resume.pdf"
+                href="/Andrew_Anil_George_resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

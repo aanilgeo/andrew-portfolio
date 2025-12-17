@@ -78,7 +78,7 @@ export default function Sidebar() {
         <a
           className="rounded-full bg-[var(--card)] px-5 py-2 text-sm"
           style={{ color: "var(--text)" }}
-          href="/Andrew_Anil George_resume.pdf"
+          href="/Andrew_Anil_George_resume.pdf"
           target="_blank"
           rel="noreferrer"
         >
