@@ -6,69 +6,81 @@ export const about = [
 
 export const experience = [
   {
-    title: "software engineering co-op",
-    org: "honeywell",
-    dates: "jan 2025 to may 2025",
+    title: "Software Engineering Co-op",
+    org: "Honeywell",
+    dates: "Jan 2025 to May 2025",
     bullets: [
-      "engineered a .net windows app to convert legacy boss shared memory files into structured xml for mc4.",
-      "designed c# parsers and configuration driven xml templates to reduce implementation time and manual effort.",
-      "collaborated across agile teams to integrate reusable components for scalable deployments.",
+      "Engineered a .NET Windows application to convert legacy BOSS shared memory files into structured XML for MC4, improving system reliability.",
+      "Designed C# parsers and configuration-driven XML templates, reducing implementation time by 40% and manual labor by 60%.",
+      "Collaborated across Agile teams to integrate reusable logic components and support scalable production deployments.",
     ],
   },
   {
-    title: "nasa comet software engineering intern",
-    org: "jacobs",
-    dates: "jun 2024 to aug 2024",
+    title: "NASA COMET Software Engineering Intern",
+    org: "Jacobs",
+    dates: "Jun 2024 to Aug 2024",
     bullets: [
-      "developed a multithreaded c++ interface to parallelize plc hardware operations and reduce load and unload times.",
-      "implemented unit tests with google test and improved workflows with version control practices.",
-      "worked in performance focused, fault tolerant simulation modules using concurrent programming techniques.",
+      "Developed a multithreaded C++ interface to parallelize PLC hardware operations, improving load and unload times by over 80%.",
+      "Implemented unit tests with Google Test and strengthened version control workflows using AccuRev.",
+      "Applied asynchronous and concurrent programming techniques to optimize real-time, fault-tolerant Artemis simulation modules.",
     ],
   },
   {
-    title: "student technician - unified communications & networking",
-    org: "njit",
-    dates: "sep 2022 to jan 2024",
+    title: "Student Technician - Unified Communications & Networking",
+    org: "NJIT",
+    dates: "Sep 2022 to Jan 2024",
     bullets: [
-      "helped support telephony and networking infrastructure across campus facilities.",
-      "assisted with troubleshooting and configuration tasks for large user populations.",
+      "Upgraded campus telephony and networking infrastructure across 30+ buildings, improving system uptime and service reliability.",
+      "Led a summer dorm Wi-Fi expansion initiative that increased student satisfaction scores by 15%.",
+      "Partnered with senior engineers to diagnose configuration issues and maintain seamless communication for thousands of users.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "heart failure prediction using ml",
-    dates: "summer 2025",
-    stack: ["python", "pandas", "numpy", "scikit-learn"],
+    name: "Distributed Log Engine with AI Insights",
+    dates: "Spring 2026",
+    stack: ["Go", "gRPC", "Gemini AI", "Docker", "Makefile"],
     blurb:
-      "built an end to end ml workflow with preprocessing, visualizations, and model comparisons focused on recall and f1.",
+      "Engineered a high-performance log ingestion system featuring a custom segmented storage layer and a RAG pipeline for automated AI root-cause analysis.",
     links: {
-      repo: "https://github.com/aanilgeo/heart-failure-prediction-ml",
+      repo: "https://github.com/aanilgeo/log-engine",
       live: "",
     },
   },
   {
-    name: "ai resume analyzer",
-    dates: "fall 2024",
-    stack: ["react", "javascript", "python", "fastapi"],
+    name: "AI Resume Analyzer",
+    dates: "Fall 2024",
+    stack: ["React", "FastAPI", "Python", "OpenAI API"],
     blurb:
-      "built a tool to analyze resumes, extract keywords, and generate actionable suggestions through a clean, simple ui.",
+      "Integrated AI and NLP models to extract, score, and rank resume content through a responsive React interface and data-driven rendering.",
     links: {
       repo: "https://github.com/aanilgeo/ai-resume-analyzer-team3",
+      live: "",
+    },
+  },
+  {
+    name: "Heart Failure Prediction using ML",
+    dates: "Summer 2025",
+    stack: ["Python", "scikit-learn", "Pandas", "NumPy"],
+    blurb:
+      "Built an end-to-end machine learning pipeline evaluating classification models using F1 and recall metrics.",
+    links: {
+      repo: "https://github.com/aanilgeo/heart-failure-prediction-ml",
       live: "",
     },
   },
 ];
 
 export const skills = {
-  frontend: ["react", "typescript", "javascript", "next.js", "tailwind css"],
-  backend: ["java", "python", "node.js", "rest apis", "fastapi"],
-  tools: ["git", "docker", "linux", "ci/cd"],
-  data: ["numpy", "pandas", "scikit-learn"],
+  frontend: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS"],
+  backend: ["Go", "Python", "C++", "Java", "C#", "Node.js", "FastAPI", "gRPC", "REST APIs"],
+  tools: ["Git", "Docker", "Makefile", "Linux", "AWS", "CI/CD", "AccuRev", "Google Test"],
+  data: ["NumPy", "Pandas", "scikit-learn", "PyTorch"],
 };
 
 export const contact = {
   email: "andrewpularickal@gmail.com",
-  note: "open to entry-level 2026 software engineering roles.",
+  note: "Open to entry-level 2026 Software Engineering roles.",
 };
